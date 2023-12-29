@@ -1,4 +1,5 @@
 # wordle
+
 wordle implementation with reagent
 
 A custom implementation of wordle with inspiration from [NY Time](https://www.nytimes.com/games/wordle/index.html)'s.
@@ -10,7 +11,6 @@ wordle is a clojurecript implementation of the [wordle](https://en.wikipedia.org
 ## Setup
 
 To get an interactive development environment run:
-
 
     lein figwheel
 
@@ -32,7 +32,7 @@ To create a production build run:
     lein do clean, cljsbuild once min
 
 And open your browser in `resources/public/index.html`. You will not
-get live reloading, nor a REPL. 
+get live reloading, nor a REPL.
 
 ## License
 
