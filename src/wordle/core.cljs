@@ -1,7 +1,7 @@
 (ns wordle.core
-    (:require
-      [reagent.core :as r]
-      [reagent.dom :as d]))
+  (:require
+   [reagent.core :as r]
+   [reagent.dom :as d]))
 
 ;; -------------------------
 ;; Views
