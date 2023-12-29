@@ -1,5 +1,8 @@
 /node_modules
-
+/.shadow-cljs
+/.idea
+/.clj-kondo
+/.lsp
 /target
 /classes
 /checkouts
