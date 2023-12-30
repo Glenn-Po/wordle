@@ -10,10 +10,11 @@
 ;; Views
 
 (defn home-page []
-  [:div [:h2 "Welcome to Reagent"]])
+  [:main [:div.heading [:img {:src "img/wordle.png" :height 100}] [:h2.title "Welcome to " [:b "Wordle"]]]
+   [:div.body [:p "Get N+1 chances to guess an N-letter word, 3 <= N <= 12."]
+    [:div.actions [:button "How to Play"] [:button "Play"]]]])
 
-(defn App []
-  [:p "Am I connected?"])
+
 ;; -------------------------
 ;; Initialize app
 
